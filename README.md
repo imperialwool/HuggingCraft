@@ -16,3 +16,7 @@ Download ngrok here: https://ngrok.com/download
 ### Suggestions for users:
 1. How about DiscordSRV? You can control the server easily and you will need only configure the server settings
 2. Maybe any other easy ways to make it works? Idk, i did so complicated work, but its work!!!!!!! :D
+
+### Be careful!
+1. Files are NOT saving, maybe later will fix that but idk how
+2. If your repository gets deleted or your account gets blocked, its not my fault; imm just giving you the code, its up to you to use it, how to use it and etc
