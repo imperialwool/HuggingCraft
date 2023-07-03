@@ -1,0 +1,34 @@
+# Pufferfish Configuration
+# Check out Pufferfish Host for maximum performance server hosting: https://pufferfish.host
+# Join our Discord for support: https://discord.gg/reZw4vQV9H
+# Download new builds at https://ci.pufferfish.host/job/Pufferfish
+info:
+  version: '1.0'
+enable-suffocation-optimization: true
+inactive-goal-selector-throttle: true
+# Optimizes entity brains when
+# they're far away from the player
+dab:
+  enabled: true
+  start-distance: 12
+  max-tick-freq: 20
+  activation-dist-mod: 8
+  blacklisted-entities: []
+# These values define a entity's maximum lifespan. If an
+# entity is in this list and it has survived for longer than
+# that number of ticks, then it will be removed. Setting a value to
+# -1 disables this feature.
+entity_timeouts:
+  SNOWBALL: -1
+  LLAMA_SPIT: -1
+sentry-dsn: ''
+enable-async-mob-spawning: true
+# Optimizes projectile settings
+projectile:
+  max-loads-per-tick: 10
+  max-loads-per-projectile: 8
+enable-books: true
+# Settings for things that don't belong elsewhere
+misc:
+  disable-method-profiler: true
+  disable-out-of-order-chat: false
