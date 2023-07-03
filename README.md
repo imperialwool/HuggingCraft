@@ -10,7 +10,7 @@ Download ngrok here: https://ngrok.com/download
 1. Register on ngrok
 2. Get access key
 3. Make in "Repository secrets" new secret "NGROK_TOKEN" what contains access key
-4. Upload new server files and/or customize them (DO NOT FORGET TO MAKE YOURSELF AN OPERATOR)
+4. Upload new server files and/or customize them (DO NOT FORGET TO MAKE YOURSELF AN OPERATOR; also do not forget server core!!)
 5. Start this Docker!
 
 ### Suggestions for users:
