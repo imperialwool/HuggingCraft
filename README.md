@@ -12,8 +12,11 @@ Download ngrok here: https://ngrok.com/download
 1. Register on ngrok
 2. Get access key
 3. Make in "Repository secrets" new secret "NGROK_TOKEN" what contains access key
-4. Upload new server files and/or customize them (DO NOT FORGET TO MAKE YOURSELF AN OPERATOR; also do not forget server core!!)
-5. Start this Docker!
+4. Download purpur and ngrok binaries
+5. Rename purpur bin to "purpur.jar" and ngrok bin to "ngrok" and put them into main folder (where Dockerfile, start.sh ...)
+6. Optionally: run server locally to give yourself an op and configure all plugins and worlds
+7. Upload all files to HuggingFace's Space or make docker image
+8. Run Space/Docker!
 
 ### How to join
 1. Go to ngrok's dashboard
