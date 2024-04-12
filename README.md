@@ -33,3 +33,6 @@ Download ngrok here: https://ngrok.com/download
 ## Be careful!
 1. Files are NOT saving, maybe later will fix that but idk how
 2. If your repository gets deleted or your account gets blocked, its not my fault; imm just giving you the code, its up to you to use it, how to use it and etc
+3. Seems like HuggingFace blocked something and skins cant work properly, need to check what about license only server
+4. Server is already extremely optimized, also it using 14GB of RAM
+5. To change flags better use [flags.sh](https://flags.sh/)
